@@ -4,6 +4,6 @@ const message = document.getElementById("form-message");
 form.addEventListener("submit", function(event) {
   event.preventDefault();
 
-  message.textContent = "¡Gracias! Hemos recibido tu mensaje.";
+  message.textContent = "Gràcies,hem rebut el teu missatge!.";
   form.reset();
 });

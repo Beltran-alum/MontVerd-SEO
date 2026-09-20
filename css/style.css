@@ -50,15 +50,28 @@ a {
 }
 
 .hero {
-  min-height: 620px;
-  display: flex;
-  align-items: center;
-  padding: 80px 8%;
-  background: linear-gradient(135deg, #edf5e8 0%, #fffdf7 60%, #f7ead7 100%);
+    min-height: 550px;
+    padding: 80px 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    background: #f3f6ee;
 }
 
 .hero-content {
-  max-width: 720px;
+    width: 50%;
+}
+
+.hero-image {
+    width: 45%;
+}
+
+.hero-image img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 15px;
 }
 
 .eyebrow {
@@ -137,17 +150,19 @@ h3 {
 
 .cards {
     display: flex;
+    justify-content: center;
     gap: 20px;
 }
 
 .card {
-    width: 50%;
+    width: 30%;
 }
 
 .card img {
     width: 100%;
-    height: 300px;
+    height: 220px;
     object-fit: cover;
+    display: block;
 }
 
 .two-columns {
@@ -214,6 +229,15 @@ h3 {
   background: white;
   border: 1px solid #e7e2d7;
   border-radius: 10px;
+}
+
+.about img {
+    width: 100%;
+    max-width: 800px;
+    height: 300px;
+    object-fit: cover;
+    margin-top: 30px;
+    border-radius: 10px;
 }
 
 .contact{
