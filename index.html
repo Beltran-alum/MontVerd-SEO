@@ -1,0 +1,156 @@
+
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>La Cesta Local | Frutería y Verdulería</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header>
+    <nav class="navbar">
+      <a href="#inicio" class="logo">🍎 La Cesta Local</a>
+      <ul class="nav-links">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#productos">Productos</a></li>
+        <li><a href="#proximidad">Proximidad</a></li>
+        <li><a href="#nosotros">Nosotros</a></li>
+        <li><a href="#ofertas">Ofertas</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="inicio" class="hero">
+      <div class="hero-content">
+        <p class="eyebrow">FRUTA · VERDURA · PRODUCTO LOCAL</p>
+        <h1>Fresco, local y de temporada.</h1>
+        <p>Frutas y verduras seleccionadas cada día para llevar el mejor sabor a tu mesa.</p>
+        <div class="buttons">
+          <a href="#productos" class="button primary">Ver productos</a>
+          <a href="#contacto" class="button secondary">Visítanos</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="productos" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">LO QUE ENCONTRARÁS</p>
+        <h2>Nuestros productos</h2>
+        <p>Una selección sencilla de productos frescos para tu día a día.</p>
+      </div>
+
+      <div class="cards">
+        <article class="card">
+          <div class="card-icon">🍎</div>
+          <h3>Frutas</h3>
+          <p>Manzanas, naranjas, plátanos, fresas, peras, uvas y mucho más.</p>
+        </article>
+
+        <article class="card">
+          <div class="card-icon">🥕</div>
+          <h3>Verduras</h3>
+          <p>Tomates, zanahorias, lechugas, patatas, pimientos y hortalizas.</p>
+        </article>
+
+        <article class="card">
+          <div class="card-icon">🌿</div>
+          <h3>Temporada</h3>
+          <p>Productos que están en su mejor momento, según cada época del año.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="proximidad" class="section light">
+      <div class="two-columns">
+        <div>
+          <p class="eyebrow">DEL CAMPO A TU MESA</p>
+          <h2>Productos de proximidad</h2>
+          <p>
+            Apostamos por productores y agricultores cercanos siempre que es posible.
+            Así ayudamos al comercio local y acercamos productos frescos a nuestros vecinos.
+          </p>
+        </div>
+
+        <div class="features">
+          <div class="feature">
+            <span>📍</span>
+            <div><h3>Proximidad</h3><p>Priorizamos productos de productores cercanos.</p></div>
+          </div>
+          <div class="feature">
+            <span>🌱</span>
+            <div><h3>Temporada</h3><p>Elegimos productos según su mejor momento.</p></div>
+          </div>
+          <div class="feature">
+            <span>🥕</span>
+            <div><h3>Frescura</h3><p>Seleccionamos cada producto pensando en su calidad.</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="nosotros" class="section">
+      <div class="about">
+        <div class="about-icon">🧺</div>
+        <div>
+          <p class="eyebrow">SOBRE NOSOTROS</p>
+          <h2>Una frutería de barrio con sabor de siempre.</h2>
+          <p>
+            Somos un pequeño comercio dedicado a ofrecer frutas y verduras frescas,
+            apostando por los productos locales y de temporada. Queremos que comprar
+            fruta y verdura sea sencillo, cercano y agradable.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="ofertas" class="section light">
+      <div class="section-heading">
+        <p class="eyebrow">CADA SEMANA</p>
+        <h2>Ofertas de la semana</h2>
+      </div>
+
+      <div class="offers">
+        <div class="offer"><span>🍓 Fresas</span><strong>2,99 €/kg</strong></div>
+        <div class="offer"><span>🍅 Tomates</span><strong>1,89 €/kg</strong></div>
+        <div class="offer"><span>🍊 Naranjas</span><strong>1,49 €/kg</strong></div>
+      </div>
+    </section>
+
+    <section id="contacto" class="section contact">
+      <div class="two-columns">
+        <div>
+          <p class="eyebrow">VEN A VISITARNOS</p>
+          <h2>Estamos cerca de ti.</h2>
+          <p>📍 Carrer Major, 25 — Barcelona</p>
+          <p>🕐 Lunes a sábado: 8:00 – 20:30</p>
+          <p>☎️ 932 123 456</p>
+          <p>✉️ hola@lacestalocal.cat</p>
+        </div>
+
+        <form id="contact-form" class="contact-form">
+          <label for="nombre">Nombre</label>
+          <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="tu@email.com" required>
+
+          <label for="mensaje">Mensaje</label>
+          <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu mensaje..." required></textarea>
+
+          <button type="submit" class="button primary">Enviar mensaje</button>
+          <p id="form-message" class="form-message"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 La Cesta Local · Frutería y Verdulería de Proximidad</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
