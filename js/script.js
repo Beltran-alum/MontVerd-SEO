@@ -1,9 +1,12 @@
 const form = document.getElementById("contact-form");
-const message = document.getElementById("form-message");
 
-form.addEventListener("submit", function(event) {
-  event.preventDefault();
+if (form) {
+    const message = document.getElementById("form-message");
 
-  message.textContent = "Gràcies,hem rebut el teu missatge!.";
-  form.reset();
-});
+    form.addEventListener("submit", function(event) {
+        event.preventDefault();
+
+        message.textContent = "Gràcies, hem rebut el teu missatge!";
+        form.reset();
+    });
+}
